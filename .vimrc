@@ -278,7 +278,7 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap vv V
 vnoremap ii <ESC>
 
-" Map NERDTree for easy opening
+" Map for easy toggle of NERDTree
 nnoremap <leader>tt :NERDTreeToggle<CR>
 
 " Map for easy toggle of Syntastic
