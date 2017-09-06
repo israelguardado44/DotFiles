@@ -63,9 +63,6 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-"NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-
 "------------------------------------------------------------
 " Features {{{1
 "
@@ -282,10 +279,10 @@ nnoremap vv V
 vnoremap ii <ESC>
 
 " Map NERDTree for easy opening
-nnoremap <leader>t :NERDTreeToggle<CR>
+nnoremap <leader>tt :NERDTreeToggle<CR>
 
 " Map for easy toggle of Syntastic
-nnoremap <leader>st :SyntasticToggleMode<CR> :SyntasticToggleMode<CR>
+nnoremap <leader>ts :SyntasticToggleMode<CR> :SyntasticToggleMode<CR>
 
 
 "------------------------------------------------------------
